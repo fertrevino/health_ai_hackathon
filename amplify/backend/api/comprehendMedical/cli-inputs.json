@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "paths": {
+    "/description": {
+      "name": "/description",
+      "lambdaFunction": "healthaihackathonad09d9fa",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "read"
+        ]
+      }
+    }
+  }
+}
