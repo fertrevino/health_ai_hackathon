@@ -9,6 +9,7 @@ frontend:
   phases:
     preBuild:
       commands:
+        - pip3 install --user pipenv
         - npm install
     build:
       commands:
