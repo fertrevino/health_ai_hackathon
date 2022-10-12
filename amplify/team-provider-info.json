@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-healthaihackathon-staging-222228-authRole",
+      "UnauthRoleArn": "arn:aws:iam::522614572600:role/amplify-healthaihackathon-staging-222228-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::522614572600:role/amplify-healthaihackathon-staging-222228-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-healthaihackathon-staging-222228-deployment",
+      "UnauthRoleName": "amplify-healthaihackathon-staging-222228-unauthRole",
+      "StackName": "amplify-healthaihackathon-staging-222228",
+      "StackId": "arn:aws:cloudformation:eu-west-1:522614572600:stack/amplify-healthaihackathon-staging-222228/3120a4f0-49b3-11ed-94d0-021f8b7b6b55",
+      "AmplifyAppId": "d5bni60s17irn"
+    }
+  }
+}
