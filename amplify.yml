@@ -4,7 +4,7 @@ backend:
     preBuild:
       commands:
         - pip3 install --user pipenv
-        - pip3 install venv
+        - pip3 install virtualenv
     build:
       commands:
         - '# Execute Amplify CLI with the helper script'
