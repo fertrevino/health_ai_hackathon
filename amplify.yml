@@ -8,6 +8,7 @@ backend:
     build:
       commands:
         - '# Execute Amplify CLI with the helper script'
+        - python3.8 --version
         - pip3 install --user pipenv
         - pip3 install virtualenv
         - amplifyPush --simple
