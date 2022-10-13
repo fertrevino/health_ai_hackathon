@@ -1,6 +1,10 @@
 version: 1
 backend:
   phases:
+    preBuild:
+      commands:
+        - pip3 install --user pipenv
+        - pip3 install venv
     build:
       commands:
         - '# Execute Amplify CLI with the helper script'
@@ -9,7 +13,6 @@ frontend:
   phases:
     preBuild:
       commands:
-        - pip3 install --user pipenv
         - npm install
     build:
       commands:
