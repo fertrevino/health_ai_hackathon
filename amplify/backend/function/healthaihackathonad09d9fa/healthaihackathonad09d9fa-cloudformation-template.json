@@ -160,6 +160,28 @@
                   }
                 ]
               }
+            },
+            {
+              "Effect": "Allow",
+              "Action": [
+                "comprehendmedical:DescribeEntitiesDetectionV2Job",
+                "comprehendmedical:DescribeICD10CMInferenceJob",
+                "comprehendmedical:DescribePHIDetectionJob",
+                "comprehendmedical:DescribeRxNormInferenceJob",
+                "comprehendmedical:DescribeSNOMEDCTInferenceJob",
+                "comprehendmedical:DetectEntitiesV2",
+                "comprehendmedical:DetectEntities",
+                "comprehendmedical:DetectPHI",
+                "comprehendmedical:InferICD10CM",
+                "comprehendmedical:InferRxNorm",
+                "comprehendmedical:InferSNOMEDCT",
+                "comprehendmedical:ListEntitiesDetectionV2Jobs",
+                "comprehendmedical:ListICD10CMInferenceJobs",
+                "comprehendmedical:ListPHIDetectionJobs",
+                "comprehendmedical:ListRxNormInferenceJobs",
+                "comprehendmedical:ListSNOMEDCTInferenceJobs"
+              ],
+              "Resource": "*"
             }
           ]
         }

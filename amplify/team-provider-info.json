@@ -19,7 +19,7 @@
       "function": {
         "healthaihackathonad09d9fa": {
           "deploymentBucketName": "amplify-healthaihackathon-staging-222228-deployment",
-          "s3Key": "amplify-builds/healthaihackathonad09d9fa-5242684b5270616a5857-build.zip"
+          "s3Key": "amplify-builds/healthaihackathonad09d9fa-55763970314a362f4450-build.zip"
         }
       }
     }
