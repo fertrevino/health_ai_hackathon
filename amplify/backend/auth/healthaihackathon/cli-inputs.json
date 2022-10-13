@@ -54,7 +54,8 @@
     "useEnabledMfas": true,
     "dependsOn": [],
     "userPoolGroupList": [
-      "patients"
+      "patients",
+      "doctors"
     ]
   }
 }

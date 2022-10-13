@@ -18,7 +18,8 @@ export type AmplifyDependentResourcesAttributes = {
             "AppClientID": "string"
         },
         "userPoolGroups": {
-            "patientsGroupRole": "string"
+            "patientsGroupRole": "string",
+            "doctorsGroupRole": "string"
         }
     },
     "api": {
