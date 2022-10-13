@@ -1,10 +1,10 @@
 version: 1
 backend:
   phases:
-    preBuild:
-      commands:
-        - pip3 install --user pipenv
-        - pip3 install virtualenv
+    # preBuild:
+      # commands:
+        # - pip3 install --user pipenv
+        # - pip3 install virtualenv
     build:
       commands:
         - '# Execute Amplify CLI with the helper script'
