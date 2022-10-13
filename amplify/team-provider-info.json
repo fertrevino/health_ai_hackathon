@@ -14,7 +14,8 @@
     },
     "categories": {
       "auth": {
-        "healthaihackathon": {}
+        "healthaihackathon": {},
+        "userPoolGroups": {}
       },
       "function": {
         "healthaihackathonad09d9fa": {
