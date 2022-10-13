@@ -12,7 +12,7 @@ backend:
         - /usr/local/bin/pip3.8 install --user pipenv
         - pip3 install --user pipenv
         - pip3 install virtualenv
-        - amplifyPush --simple
+        # - amplifyPush --simple
 frontend:
   phases:
     preBuild:
